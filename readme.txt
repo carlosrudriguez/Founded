@@ -1,3 +1,8 @@
+Founded is a personal project, a Wordpress theme made with the Reverie framework.
+Author: Carlos Humberto Rodríguez Arias
+
+### About Reverie
+
 Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation, brought you by Zhen Huang from ThemeFortress. If you have any questions or suggestions, please visit the support forum.
 
 ThemeFortress:
