@@ -9,7 +9,6 @@
 					<?php bloginfo('name'); ?> is powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a> </br>
 					and <a href="http://foundation.zurb.com/" title="Foundation framework">the Foundation framework</a>.
 				</div>
-				<?php wp_nav_menu(array('theme_location' => 'utility_navigation', 'container' => false, 'menu_class' => 'eight columns footer-nav')); ?>
 			</div>
 		</footer>
 			
