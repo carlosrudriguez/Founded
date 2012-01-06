@@ -7,6 +7,10 @@ Site: http://metadata.mx
    Change Log
 --------------------------------------------------- 
 
+V. 0.1.2
+- Added site title style
+- Added subheader style
+
 V. 0.1.1
 - Added footer content info section
 - Create hompage template

@@ -24,8 +24,12 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 --------------------------------------------------- */
 	
 	/* Auto Height for Images for Responsive Design */
-	img { height: auto; }
-	li { margin-bottom: 2%!important; }
+	img {
+		height: auto;
+		}
+	li {
+		margin-bottom: 2%!important;
+		}
 
 	/* ZURB Navi for Foundation */
 	dl.nav { display: block; width: auto; height: 27px; margin: 0 0 18px; }
@@ -43,10 +47,20 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	/* Foundation-specific presentation CSS by ZURB */
 	body { padding-bottom: 60px; }
 	div.reverie-header { margin: 0 0 30px 0; padding: 20px 0 0 0; border-bottom: solid 1px #ccc; }
-	div.reverie-header h1 { margin-bottom: 0; padding: 0; }
-	div.reverie-header h1 a { color: #181818; }
-	div.reverie-header h1 a:hover { color: #181818; }
-	div.reverie-header .subheader { margin-bottom: 9px; }
+	div.reverie-header h1 {
+		font-size: 6.0rem;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	div.reverie-header h1 a {
+	color: #FA6428;
+	text-shadow: 3px 3px #dcd0cc;
+	}
+	div.reverie-header h1 a:hover { color: #D73B11; }
+	div.reverie-header .subheader {
+		margin-bottom: 9px;
+		font-size: 1.7rem;
+	}
 	div.highlight { margin-bottom: 12px; }
 	img.beta { position: absolute; top: 0px; right: 0px; }
 
