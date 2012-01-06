@@ -70,15 +70,15 @@
 	
 	
 	
-	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
+	body { background: #FFFFFF; font-family: "Baskerville", Baskerville, "Times New Roman", Times New Roman, "Georgia", Georgia, sans-serif; font-size: 13px; line-height: 18px; color: #4D4747; position: relative; -webkit-font-smoothing: antialiased; }
 	
 
 
 /*	--------------------------------------------------
 	:: Links
 	-------------------------------------------------- */
-	a { color: #2a85e8; text-decoration: none; outline: 0; line-height: inherit; }
-	a:hover { color: #11639d; }
+	a { color: #FA6428; text-decoration: none; outline: 0; line-height: inherit; }
+	a:hover { color: #D73B11; }
 	p a, p a:visited { line-height: inherit; }
 	
 
@@ -130,8 +130,17 @@
 /*	--------------------------------------------------
     :: Typography
 	-------------------------------------------------- */
-	h1, h2, h3, h4, h5, h6 { color: #181818; font-weight: bold; line-height: 1.25 }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	@import url(http://fonts.googleapis.com/css?family=Oswald);
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Oswald', sans-serif;
+		color: #FA6428;
+		font-weight: bold;
+		line-height: 1.25
+		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #FA6428;
+	font-weight: inherit;
+	}
 	h1 { font-size: 46px; font-size: 4.6rem; margin-bottom: 12px;}
 	h2 { font-size: 35px; font-size: 3.5rem; margin-bottom: 9px; }
 	h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
@@ -139,7 +148,13 @@
 	h5 { font-size: 18px; font-size: 1.8rem; font-weight: normal; margin-bottom: 3px;  }
 	h6 { font-size: 15px; font-size: 1.5rem; font-weight: normal; }
 
-	.subheader { color: #777; font-weight: 300; margin-bottom: 24px; }
+	.subheader {
+	font-family: "Baskerville", Baskerville, "Times New Roman", Times New Roman, "Georgia", Georgia, sans-serif;
+	font-style: italic;
+	color: #4D4747;
+	font-weight: 300;
+	margin-bottom: 24px;
+	}
 
 	p { line-height: 17px; margin: 0 0 18px; }
 	p img { margin: 0; }

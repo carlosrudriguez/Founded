@@ -66,7 +66,7 @@
 		<div class="row">
 			<header class="twelve columns" role="banner">
 				<div class="reverie-header">
-					<h1><?php bloginfo('name'); ?></h1>
+					<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 					<h4 class="subheader"><?php bloginfo('description'); ?></h4>
 				</div>
 				<nav role="navigation">
@@ -87,7 +87,7 @@
 						'link_before' => '',
 						'link_after' => '',
 						'depth' => 0,
-						'items_wrap' => '<dl class="nav hide-on-phones"><dt>Blog Menu:</dt>%3$s</dl>',
+						'items_wrap' => '<dl class="nav hide-on-phones"><dt>Menu:</dt>%3$s</dl>',
 						'walker' => new description_walker())
 					); ?>
 				</nav>
