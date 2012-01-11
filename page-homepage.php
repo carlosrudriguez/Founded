@@ -3,6 +3,12 @@
 Template Name: Homepage
 */
 get_header(); ?>
+	<div id="content" class="row">
+	<div id="featured"> 
+     <img src="/images/slides/slide1.jpg" alt="Slide 1" />
+     <img src="/images/slides/slide2.jpg" alt="Slide 2" />
+	</div>
+	</div>
 	<!-- Row for main content area -->
 	<div id="content" class="row">
 	<div class="four columns">
