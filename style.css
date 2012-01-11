@@ -61,31 +61,32 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 		color: #fff;
 	}
  
-	/* Foundation-specific presentation CSS by ZURB */
 	body {
 		padding-bottom: 60px;
 	}
-	div.reverie-header {
+/* Site title and subtitle*/
+	div.founded-header {
 		margin: 0 0 30px 0;
 		padding: 20px 0 0 0;
 		border-bottom: solid 1px #ccc;
 	}
-	div.reverie-header h1 {
+	div.founded-header h1 {
 		font-size: 17.0rem;
 		margin-bottom: 0;
 		padding: 0;
 	}
-	div.reverie-header h1 a {
+	div.founded-header h1 a {
 		color: #FA6428;
 		text-shadow: 3px 3px #dcd0cc;
 	}
-	div.reverie-header h1 a:hover {
+	div.founded-header h1 a:hover {
 		color: #D73B11;
 	}
-	div.reverie-header .subheader {
+	div.founded-header .subheader {
 		margin-bottom: 9px;
 		font-size: 1.7rem;
 	}
+/* End ite title and subtitle*/
 	div.highlight {
 		margin-bottom: 12px;
 	}

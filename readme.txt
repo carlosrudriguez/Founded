@@ -7,6 +7,9 @@ Site: http://metadata.mx
    Change Log
 --------------------------------------------------- 
 
+V. 0.1.5
+- Fixed site title to display correctly in handheld devices
+
 V. 0.1.4
 - Changed site title style
 - Cleaned CSS to be compliant with the WordPress CSS Coding Standards

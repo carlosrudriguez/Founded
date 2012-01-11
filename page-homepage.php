@@ -3,7 +3,6 @@
 Template Name: Homepage
 */
 get_header(); ?>
-
 	<!-- Row for main content area -->
 	<div id="content" class="row">
 	<div class="four columns">

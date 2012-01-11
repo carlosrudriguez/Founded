@@ -278,6 +278,11 @@
 			font-size: 1.5rem;
 			line-height: 1.4;
 		}
+		div.founded-header h1 {
+			font-size: 6.0rem;
+			margin-bottom: 0;
+			padding: 0;
+		}
 	}
 	
 	em {
@@ -1324,8 +1329,8 @@
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
    ================================================== */
 	#caseStudies { 
-		width: 1000px;
-		height: 210px;
+		width: 980px;
+		height: 3000px;
 		background: #fff url('../images/orbit/loading.gif') no-repeat center center;
 		overflow: hidden;
 	}
