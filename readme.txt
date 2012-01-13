@@ -33,3 +33,15 @@ V. 0.1.0
 - Added style sheets
 - Added Google Fonts hook
 - Started documentation
+
+---------------------------------------------------
+   Code, services and frameworks used
+---------------------------------------------------
+
++ WordPress (http://wordpress.org/)
++ Foundation (http://foundation.zurb.com/)
++ Reverie (http://themefortress.com/reverie/)
++ Google Fonts (http://www.google.com/webfonts)
++ Eric Meyer's CSS Reset (http://meyerweb.com/eric/tools/css/reset/)
++ Orbit (http://www.zurb.com/playground/orbit-jquery-image-slider)
++ jQuary (http://jquery.com/)

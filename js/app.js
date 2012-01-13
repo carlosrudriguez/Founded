@@ -1,3 +1,13 @@
+/* ORBIT --------------------------------- */
+
+jQuery(document).ready(function() {
+
+    $('#featured').orbit();
+
+}
+
+/* ORBIT END ----------------------------- */
+
 $(document).ready(function() {
 
 	/* Use this js doc for all application specific JS */
@@ -5,8 +15,10 @@ $(document).ready(function() {
     console.log($(window).width());
   });
 
-	/* TABS --------------------------------- */
-	/* Remove if you don't need :) */
+
+
+/* TABS --------------------------------- */
+/* Remove if you don't need :) */
 	
 	var tabs = $('dl.tabs');
 		tabsContent = $('ul.tabs-content')
@@ -38,8 +50,8 @@ $(document).ready(function() {
 	});
 	
 	
-	/* PLACEHOLDER FOR FORMS ------------- */
-	/* Remove this and jquery.placeholder.min.js if you don't need :) */
+/* PLACEHOLDER FOR FORMS ------------- */
+/* Remove this and jquery.placeholder.min.js if you don't need :) */
 	
 	$('input, textarea').placeholder();
 	
